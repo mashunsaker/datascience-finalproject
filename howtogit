@@ -1,0 +1,132 @@
+Getting Started with Git
+
+Identify where your working directory folder will be
+For mac it is something like users/username/folder (or shortcut with ~/)
+This is where you will save the Github repository folder (final_project_bmi6018)
+If you specify a folder with the same name as the repository, it will basically nest it one level deep
+I am using a folder on the desktop, so mine is ~/Desktop/BMI6018
+
+
+-------------------------------------------------------
+First Time - Basic Workflow
+
+Open Command Line (Terminal on Mac)
+Move into your chosen working directory
+- cd ~/Desktop/BMI6018
+Clone into the Github repository
+- git clone https://github.com/knielsen15/final_project_bmi6018.git
+Check that the repository folder is in your working directory
+- ls
+(You should see the folder listed)
+Move to the repository folder
+- cd final_project_bmi6018
+Check what is in the repository folder
+- ls
+(You should see all the same files that you see on the Github website)
+Add the file(s) that you have updated (or new files) to the staging area
+- git add filename
+- git add second_file
+Check the status (should show changes to be committed)
+- git status
+Commit the changes locally
+- git commit -m "add a note about what you did in quotes"
+Push changes to Github
+- git push
+
+Thats it! If you go to GitHub you should see your updated/new files
+
+
+-------------------------------------------------------
+Committing local changes (no new changes in master)
+
+Open Command Line (Terminal on Mac)
+Move into your chosen working directory
+- cd ~/Desktop/BMI6018
+Check that the repository folder is in your working directory
+- ls
+Move to the repository folder
+- cd final_project_bmi6018
+Check what is in the repository folder
+- ls
+(You should see all the same files that you see on the Github website)
+Add the file(s) that you have updated (or new files) to the staging area
+- git add filename
+- git add second_file
+Check the status (should show changes to be committed)
+- git status
+Commit the changes locally
+- git commit -m "add a note about what you did in quotes"
+Push changes to Github
+- git push
+
+Thats it! If you go to GitHub you should see your updated/new files
+
+--------------------------------------------------------
+Committing local changes with changes in master (branching)
+
+Create a new branch of the current master repository in GitHub
+Upload new changes to the branch and merge branch to master
+
+Set working directory to the repository folder
+- cd ~/Desktop/BMI6018/final_project_bmi6018
+Pull changes from the master branch
+- git pull
+
+#### Make changes to files ###
+
+Create a new branch
+- git branch “branch name”
+This will copy all contents from the local branch into the new branch
+Move into the new branch
+- git checkout “branch name”
+Files that have been edited will be shown with an “M” for modified
+Add file(s) to the staging area
+- git add “filename” (or -a for all)
+Move files from staging area to branch
+- git commit -m “message”
+
+NOTE: it is useful at this point to check the master branch to be sure nothing else has changed 
+(especially if many people are working together)
+Switch to master branch 
+- git checkout master
+Pull all newly updated files 
+- git pull
+
+Move back to new branch 
+- git checkout “branch name”
+Merge new branch and master 
+- git merge master
+Send local branch into GitHub branch
+- git push --set-upstream origin “branch name” 
+
+In GitHub, approve the merge, make comments, etc as appropriate.
+May need to add a pull request by comparing the master and new branch
+Link the issue to the pull request to close out the issue.
+ 
+Switch to master branch 
+- git checkout master
+Delete branch 
+- git branch -d “branch name”
+
+-------------------------------------------------------
+Creating a new repository based on local work
+
+Create the working directory
+- Type mkdir ~/Desktop/BMI6018/final_project_bmi6018
+Initialize git
+- Type git init
+
+--------------------------------------------------------
+Uploading a new file to Github
+This assumes you have not cloned an existing repository
+
+Add file to staging area
+- git add “filename”
+- git commit -m “add a message here if desired”
+Specify where to link in Github. Generally copy the address of the repository
+- git remote add origin “website address path” (can be copied from Github repository)
+Push the file that was committed to the Github repository
+- git push --set-upstream origin master
+- If the file already exists in Github, just use git push
+The terminal will ask to authenticate your username and password
+The file is now in Github!
