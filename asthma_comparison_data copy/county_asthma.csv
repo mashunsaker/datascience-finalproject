@@ -1,0 +1,50 @@
+Asthma measure,CA number,CA rate,County,County number,County rate,Description,Group,Year
+Asthma ED visits,"191,904",50.4,Orange,"10,275",33.9,Total population,All ages,2015
+Asthma hospitalizations,"27,262",7.0,Orange,"1,713",5.5,Total population,All ages,2015
+Asthma ED visits,"174,733",45.8,Orange,"8,878",29.2,Total population,All ages,2016
+Asthma ED visits,"180,053",46.9,Orange,"9,084",29.7,Total population,All ages,2017
+Asthma ED visits,"163,807",42.4,Orange,"8,183",26.5,Total population,All ages,2018
+Asthma hospitalizations,"18,266",4.8,Orange,"1,082",3.5,Total population,All ages,2016
+Asthma hospitalizations,"18,097",4.7,Orange,"1,050",3.4,Total population,All ages,2017
+Asthma hospitalizations,"17,012",4.4,Orange,"1,026",3.3,Total population,All ages,2018
+Asthma ED visits,"191,904",50.4,San Diego,"11,646",37.0,Total population,All ages,2015
+Asthma hospitalizations,"27,262",7.0,San Diego,"1,927",6.0,Total population,All ages,2015
+Asthma ED visits,"174,733",45.8,San Diego,"10,068",30.9,Total population,All ages,2016
+Asthma ED visits,"180,053",46.9,San Diego,"10,339",31.7,Total population,All ages,2017
+Asthma ED visits,"163,807",42.4,San Diego,"9,436",28.7,Total population,All ages,2018
+Asthma hospitalizations,"18,266",4.8,San Diego,"1,296",4.0,Total population,All ages,2016
+Asthma hospitalizations,"18,097",4.7,San Diego,"1,345",4.1,Total population,All ages,2017
+Asthma hospitalizations,"17,012",4.4,San Diego,"1,243",3.7,Total population,All ages,2018
+Asthma ED visits,"191,904",50.4,Riverside,"10,111",43.2,Total population,All ages,2015
+Asthma hospitalizations,"27,262",7.0,Riverside,"1,311",5.6,Total population,All ages,2015
+Asthma ED visits,"174,733",45.8,Riverside,"9,596",41.5,Total population,All ages,2016
+Asthma ED visits,"180,053",46.9,Riverside,"10,076",43.2,Total population,All ages,2017
+Asthma ED visits,"163,807",42.4,Riverside,"8,935",37.9,Total population,All ages,2018
+Asthma hospitalizations,"18,266",4.8,Riverside,975,4.2,Total population,All ages,2016
+Asthma hospitalizations,"18,097",4.7,Riverside,844,3.6,Total population,All ages,2017
+Asthma hospitalizations,"17,012",4.4,Riverside,763,3.2,Total population,All ages,2018
+Asthma ED visits,"191,904",50.4,San Bernardino,"12,761",59.3,Total population,All ages,2015
+Asthma hospitalizations,"27,262",7.0,San Bernardino,"1,717",8.1,Total population,All ages,2015
+Asthma ED visits,"174,733",45.8,San Bernardino,"11,335",51.9,Total population,All ages,2016
+Asthma ED visits,"180,053",46.9,San Bernardino,"11,204",51.4,Total population,All ages,2017
+Asthma ED visits,"163,807",42.4,San Bernardino,"10,343",47.4,Total population,All ages,2018
+Asthma hospitalizations,"18,266",4.8,San Bernardino,"1,219",5.6,Total population,All ages,2016
+Asthma hospitalizations,"18,097",4.7,San Bernardino,"1,047",4.9,Total population,All ages,2017
+Asthma hospitalizations,"17,012",4.4,San Bernardino,988,4.5,Total population,All ages,2018
+,,,,,,,,
+Asthma ED visits,"191,904",50.4,Ventura,"2,933",35.3,Total population,All ages,2015
+Asthma hospitalizations,"27,262",7.0,Ventura,366,4.1,Total population,All ages,2015
+Asthma ED visits,"174,733",45.8,Ventura,"2,619",32.4,Total population,All ages,2016
+Asthma ED visits,"180,053",46.9,Ventura,"2,836",34.8,Total population,All ages,2017
+Asthma ED visits,"163,807",42.4,Ventura,"2,469",30.4,Total population,All ages,2018
+Asthma hospitalizations,"18,266",4.8,Ventura,212,2.5,Total population,All ages,2016
+Asthma hospitalizations,"18,097",4.7,Ventura,279,3.3,Total population,All ages,2017
+Asthma hospitalizations,"17,012",4.4,Ventura,249,2.9,Total population,All ages,2018
+Asthma ED visits,"191,904",50.4,Los Angeles,"52,227",53.1,Total population,All ages,2015
+Asthma hospitalizations,"27,262",7.0,Los Angeles,"8,544",8.5,Total population,All ages,2015
+Asthma ED visits,"174,733",45.8,Los Angeles,"50,778",51.5,Total population,All ages,2016
+Asthma ED visits,"180,053",46.9,Los Angeles,"49,504",50.0,Total population,All ages,2017
+Asthma ED visits,"163,807",42.4,Los Angeles,"46,729",47.1,Total population,All ages,2018
+Asthma hospitalizations,"18,266",4.8,Los Angeles,"5,899",5.9,Total population,All ages,2016
+Asthma hospitalizations,"18,097",4.7,Los Angeles,"5,424",5.5,Total population,All ages,2017
+Asthma hospitalizations,"17,012",4.4,Los Angeles,"5,359",5.4,Total population,All ages,2018
