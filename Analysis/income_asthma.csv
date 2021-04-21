@@ -1,0 +1,241 @@
+,Zip_Code,City,County,Income,Year,ED_Visits,Age_Adjusted_Rate,Age_Group
+0,90620,Buena Park,Orange,69786.41129,2018,142,32.0,All Ages
+1,90621,Buena Park,Orange,69786.41129,2018,130,34.7,All Ages
+2,90623,La Palma,Orange,,2018,50,36.6,All Ages
+3,90630,Cypress,Orange,69786.41129,2018,112,24.1,All Ages
+4,90631,La Habra,Orange,82512.73457999999,2018,196,28.1,All Ages
+5,90680,Stanton,Orange,51594.96815,2018,138,44.4,All Ages
+6,90720,Los Alamitos,Orange,,2018,46,24.0,All Ages
+7,90740,Seal Beach,Orange,69786.41129,2018,52,28.0,All Ages
+8,91320,Newbury Park,Ventura,,2018,81,19.8,All Ages
+9,91360,Thousand Oaks,Ventura,99256.87601,2018,98,25.3,All Ages
+10,91361,Westlake Village,Ventura,129883.0488,2018,23,10.1,All Ages
+11,91362,Thousand Oaks,Ventura,99256.87601,2018,60,17.4,All Ages
+12,91377,Oak Park,Ventura,,2018,16,11.6,All Ages
+13,91752,Mira Loma,Riverside,,2018,101,26.3,All Ages
+14,91901,Alpine,San Diego,56590.21959,2018,26,17.6,All Ages
+15,91902,Bonita,San Diego,,2018,41,27.2,All Ages
+16,91906,Campo,San Diego,,2018,18,52.1,All Ages
+17,91910,Chula Vista,San Diego,18033.86686,2018,352,45.9,All Ages
+18,91911,Chula Vista,San Diego,18033.86686,2018,385,44.5,All Ages
+19,91913,Chula Vista,San Diego,18033.86686,2018,128,25.1,All Ages
+20,91914,Chula Vista,San Diego,18033.86686,2018,29,16.7,All Ages
+21,91915,Chula Vista,San Diego,18033.86686,2018,49,15.3,All Ages
+22,91932,Imperial Beach,San Diego,,2018,133,48.3,All Ages
+23,91935,Jamul,San Diego,,2018,17,20.8,All Ages
+24,91941,La Mesa,San Diego,51748.29618000001,2018,80,27.0,All Ages
+25,91942,La Mesa,San Diego,51748.29618000001,2018,122,31.8,All Ages
+26,91945,Lemon Grove,San Diego,37913.68421,2018,136,52.2,All Ages
+27,91950,National City,San Diego,18033.86686,2018,388,66.1,All Ages
+28,91977,Spring Valley,San Diego,37913.68421,2018,318,52.1,All Ages
+29,91978,Spring Valley,San Diego,37913.68421,2018,28,30.2,All Ages
+30,92007,Cardiff By The Sea,San Diego,,2018,17,18.7,All Ages
+31,92008,Carlsbad,San Diego,74555.48462999999,2018,40,13.9,All Ages
+32,92009,Carlsbad,San Diego,74555.48462999999,2018,37,8.2,All Ages
+33,92010,Carlsbad,San Diego,74555.48462999999,2018,30,21.9,All Ages
+34,92011,Carlsbad,San Diego,74555.48462999999,2018,23,11.0,All Ages
+35,92014,Del Mar,San Diego,147595.3476,2018,15,12.7,All Ages
+36,92019,El Cajon,San Diego,40100.02692,2018,103,25.1,All Ages
+37,92020,El Cajon,San Diego,40100.02692,2018,251,40.9,All Ages
+38,92021,El Cajon,San Diego,40100.02692,2018,289,42.9,All Ages
+39,92024,Encinitas,San Diego,111987.7181,2018,76,15.7,All Ages
+40,92025,Escondido,San Diego,51073.52273,2018,131,25.2,All Ages
+41,92026,Escondido,San Diego,51073.52273,2018,108,20.3,All Ages
+42,92027,Escondido,San Diego,51073.52273,2018,132,22.6,All Ages
+43,92028,Fallbrook,San Diego,56590.21959,2018,97,22.1,All Ages
+44,92029,Escondido,San Diego,51073.52273,2018,31,16.1,All Ages
+45,92037,La Jolla,San Diego,,2018,38,10.0,All Ages
+46,92040,Lakeside,San Diego,63548.20388,2018,114,28.2,All Ages
+47,92054,Oceanside,San Diego,11165.69839,2018,106,22.0,All Ages
+48,92056,Oceanside,San Diego,11165.69839,2018,107,21.0,All Ages
+49,92057,Oceanside,San Diego,11165.69839,2018,116,20.1,All Ages
+50,92064,Poway,San Diego,94584.05769,2018,97,21.7,All Ages
+51,92065,Ramona,San Diego,63548.20388,2018,81,22.9,All Ages
+52,92069,San Marcos,San Diego,51220.375,2018,102,18.8,All Ages
+53,92071,Santee,San Diego,40100.02692,2018,140,25.7,All Ages
+54,92075,Solana Beach,San Diego,,2018,13,13.2,All Ages
+55,92078,San Marcos,San Diego,51220.375,2018,72,15.5,All Ages
+56,92081,Vista,San Diego,18033.86686,2018,50,18.3,All Ages
+57,92082,Valley Center,San Diego,56590.21959,2018,34,17.9,All Ages
+58,92083,Vista,San Diego,18033.86686,2018,127,29.2,All Ages
+59,92084,Vista,San Diego,18033.86686,2018,106,20.8,All Ages
+60,92101,San Diego,San Diego,19401.89516,2018,190,50.9,All Ages
+61,92102,San Diego,San Diego,19401.89516,2018,230,50.0,All Ages
+62,92103,San Diego,San Diego,19401.89516,2018,84,29.4,All Ages
+63,92104,San Diego,San Diego,19401.89516,2018,127,28.5,All Ages
+64,92105,San Diego,San Diego,19401.89516,2018,380,50.1,All Ages
+65,92106,San Diego,San Diego,19401.89516,2018,21,10.6,All Ages
+66,92107,San Diego,San Diego,19401.89516,2018,55,23.3,All Ages
+67,92108,San Diego,San Diego,19401.89516,2018,50,29.2,All Ages
+68,92109,San Diego,San Diego,19401.89516,2018,68,21.2,All Ages
+69,92110,San Diego,San Diego,19401.89516,2018,68,32.3,All Ages
+70,92111,San Diego,San Diego,19401.89516,2018,180,39.5,All Ages
+71,92113,San Diego,San Diego,19401.89516,2018,399,72.9,All Ages
+72,92114,San Diego,San Diego,19401.89516,2018,434,66.4,All Ages
+73,92115,San Diego,San Diego,19401.89516,2018,237,44.2,All Ages
+74,92116,San Diego,San Diego,19401.89516,2018,91,32.3,All Ages
+75,92117,San Diego,San Diego,19401.89516,2018,111,25.0,All Ages
+76,92118,Coronado,San Diego,,2018,29,14.0,All Ages
+77,92119,San Diego,San Diego,19401.89516,2018,48,23.6,All Ages
+78,92120,San Diego,San Diego,19401.89516,2018,100,37.9,All Ages
+79,92122,San Diego,San Diego,19401.89516,2018,61,15.3,All Ages
+80,92123,San Diego,San Diego,19401.89516,2018,103,36.7,All Ages
+81,92124,San Diego,San Diego,19401.89516,2018,70,23.5,All Ages
+82,92126,San Diego,San Diego,19401.89516,2018,164,23.3,All Ages
+83,92127,San Diego,San Diego,19401.89516,2018,80,15.4,All Ages
+84,92128,San Diego,San Diego,19401.89516,2018,81,16.2,All Ages
+85,92129,San Diego,San Diego,19401.89516,2018,76,14.0,All Ages
+86,92130,San Diego,San Diego,19401.89516,2018,46,8.3,All Ages
+87,92131,San Diego,San Diego,19401.89516,2018,35,10.1,All Ages
+88,92139,San Diego,San Diego,19401.89516,2018,142,39.7,All Ages
+89,92154,San Diego,San Diego,19401.89516,2018,290,34.4,All Ages
+90,92173,San Ysidro,San Diego,,2018,125,40.9,All Ages
+91,92201,Indio,Riverside,53669.0,2018,258,39.1,All Ages
+92,92203,Indio,Riverside,53669.0,2018,60,19.6,All Ages
+93,92211,Palm Desert,Riverside,18348.6839,2018,37,26.3,All Ages
+94,92220,Banning,Riverside,31574.14815,2018,193,68.2,All Ages
+95,92223,Beaumont,Riverside,31574.14815,2018,172,32.3,All Ages
+96,92225,Blythe,Riverside,45385.0,2018,117,52.9,All Ages
+97,92230,Cabazon,Riverside,,2018,29,97.9,All Ages
+98,92234,Cathedral City,Riverside,2420.815603,2018,141,28.0,All Ages
+99,92236,Coachella,Riverside,34224.0,2018,197,41.9,All Ages
+100,92240,Desert Hot Springs,Riverside,18348.6839,2018,197,52.6,All Ages
+101,92241,Desert Hot Springs,Riverside,18348.6839,2018,25,32.1,All Ages
+102,92253,La Quinta,Riverside,18348.6839,2018,63,21.0,All Ages
+103,92254,Mecca,Riverside,,2018,26,16.1,All Ages
+104,92260,Palm Desert,Riverside,18348.6839,2018,43,19.4,All Ages
+105,92262,Palm Springs,Riverside,2420.815603,2018,76,30.8,All Ages
+106,92264,Palm Springs,Riverside,2420.815603,2018,35,33.0,All Ages
+107,92270,Rancho Mirage,Riverside,2420.815603,2018,17,12.6,All Ages
+108,92274,Thermal,Riverside,,2018,61,20.5,All Ages
+109,92276,Thousand Palms,Riverside,,2018,24,35.7,All Ages
+110,92320,Calimesa,Riverside,31574.14815,2018,22,27.4,All Ages
+111,92501,Riverside,Riverside,23657.25904,2018,151,70.3,All Ages
+112,92503,Riverside,Riverside,23657.25904,2018,423,44.2,All Ages
+113,92504,Riverside,Riverside,23657.25904,2018,232,41.1,All Ages
+114,92505,Riverside,Riverside,23657.25904,2018,217,41.6,All Ages
+115,92506,Riverside,Riverside,23657.25904,2018,157,36.1,All Ages
+116,92507,Riverside,Riverside,23657.25904,2018,231,44.0,All Ages
+117,92508,Riverside,Riverside,23657.25904,2018,94,26.7,All Ages
+118,92509,Riverside,Riverside,23657.25904,2018,324,39.7,All Ages
+119,92530,Lake Elsinore,Riverside,49857.18062,2018,280,47.2,All Ages
+120,92532,Lake Elsinore,Riverside,49857.18062,2018,83,31.9,All Ages
+121,92536,Aguanga,Riverside,,2018,12,35.4,All Ages
+122,92539,Anza,Riverside,,2018,22,57.5,All Ages
+123,92543,Hemet,Riverside,27214.09396,2018,251,78.4,All Ages
+124,92544,Hemet,Riverside,27214.09396,2018,205,43.7,All Ages
+125,92545,Hemet,Riverside,27214.09396,2018,216,55.4,All Ages
+126,92548,Homeland,Riverside,,2018,25,35.1,All Ages
+127,92551,Moreno Valley,Riverside,47241.06796,2018,196,56.5,All Ages
+128,92553,Moreno Valley,Riverside,47241.06796,2018,454,59.5,All Ages
+129,92555,Moreno Valley,Riverside,47241.06796,2018,213,49.3,All Ages
+130,92557,Moreno Valley,Riverside,47241.06796,2018,206,40.1,All Ages
+131,92562,Murrieta,Riverside,77082.73171000001,2018,207,33.1,All Ages
+132,92563,Murrieta,Riverside,77082.73171000001,2018,218,30.7,All Ages
+133,92567,Nuevo,Riverside,,2018,25,24.0,All Ages
+134,92570,Perris,Riverside,56882.94737,2018,283,46.9,All Ages
+135,92571,Perris,Riverside,56882.94737,2018,260,42.2,All Ages
+136,92582,San Jacinto,Riverside,31574.14815,2018,93,50.1,All Ages
+137,92583,San Jacinto,Riverside,31574.14815,2018,229,70.1,All Ages
+138,92584,Menifee,Riverside,49857.18062,2018,166,33.3,All Ages
+139,92585,Sun City,Riverside,,2018,82,36.4,All Ages
+140,92586,Sun City,Riverside,,2018,88,67.2,All Ages
+141,92587,Sun City,Riverside,,2018,45,26.9,All Ages
+142,92591,Temecula,Riverside,88412.28637,2018,105,22.9,All Ages
+143,92592,Temecula,Riverside,88412.28637,2018,197,25.1,All Ages
+144,92595,Wildomar,Riverside,77082.73171000001,2018,134,38.6,All Ages
+145,92596,Winchester,Riverside,,2018,80,25.1,All Ages
+146,92602,Irvine,Orange,81227.86736,2018,33,13.7,All Ages
+147,92603,Irvine,Orange,81227.86736,2018,23,11.0,All Ages
+148,92604,Irvine,Orange,81227.86736,2018,61,23.8,All Ages
+149,92606,Irvine,Orange,81227.86736,2018,50,22.3,All Ages
+150,92612,Irvine,Orange,81227.86736,2018,34,13.2,All Ages
+151,92614,Irvine,Orange,81227.86736,2018,46,17.5,All Ages
+152,92617,Irvine,Orange,81227.86736,2018,12,25.2,All Ages
+153,92618,Irvine,Orange,81227.86736,2018,68,19.0,All Ages
+154,92620,Irvine,Orange,81227.86736,2018,70,13.5,All Ages
+155,92624,Capistrano Beach,Orange,,2018,15,20.2,All Ages
+156,92625,Corona Del Mar,Orange,,2018,13,10.8,All Ages
+157,92626,Costa Mesa,Orange,54257.80952,2018,116,23.8,All Ages
+158,92627,Costa Mesa,Orange,54257.80952,2018,221,33.6,All Ages
+159,92629,Dana Point,Orange,,2018,41,17.0,All Ages
+160,92630,Lake Forest,Orange,81227.86736,2018,110,16.9,All Ages
+161,92637,Laguna Woods,Orange,,2018,50,80.1,All Ages
+162,92646,Huntington Beach,Orange,67778.43677999999,2018,124,23.6,All Ages
+163,92647,Huntington Beach,Orange,67778.43677999999,2018,167,28.0,All Ages
+164,92648,Huntington Beach,Orange,67778.43677999999,2018,82,19.9,All Ages
+165,92649,Huntington Beach,Orange,67778.43677999999,2018,59,18.4,All Ages
+166,92651,Laguna Beach,Orange,,2018,36,16.5,All Ages
+167,92653,Laguna Hills,Orange,78408.44286,2018,50,17.8,All Ages
+168,92655,Midway City,Orange,,2018,32,42.8,All Ages
+169,92656,Aliso Viejo,Orange,78408.44286,2018,73,14.0,All Ages
+170,92657,Newport Coast,Orange,,2018,12,10.1,All Ages
+171,92660,Newport Beach,Orange,78408.44286,2018,51,16.3,All Ages
+172,92663,Newport Beach,Orange,78408.44286,2018,41,19.2,All Ages
+173,92672,San Clemente,Orange,94008.22767,2018,49,12.7,All Ages
+174,92673,San Clemente,Orange,94008.22767,2018,35,12.6,All Ages
+175,92675,San Juan Capistrano,Orange,94008.22767,2018,56,16.1,All Ages
+176,92677,Laguna Niguel,Orange,94008.22767,2018,102,16.9,All Ages
+177,92679,Trabuco Canyon,Orange,,2018,30,9.4,All Ages
+178,92683,Westminster,Orange,51594.96815,2018,259,28.6,All Ages
+179,92688,Rancho Santa Margarita,Orange,150529.4022,2018,49,10.4,All Ages
+180,92691,Mission Viejo,Orange,93953.62077,2018,86,18.2,All Ages
+181,92692,Mission Viejo,Orange,93953.62077,2018,88,20.5,All Ages
+182,92694,Ladera Ranch,Orange,150529.4022,2018,30,12.9,All Ages
+183,92701,Santa Ana,Orange,41596.18,2018,231,40.0,All Ages
+184,92703,Santa Ana,Orange,41596.18,2018,262,35.4,All Ages
+185,92704,Santa Ana,Orange,41596.18,2018,285,30.6,All Ages
+186,92705,Santa Ana,Orange,41596.18,2018,114,27.9,All Ages
+187,92706,Santa Ana,Orange,41596.18,2018,141,37.4,All Ages
+188,92707,Santa Ana,Orange,41596.18,2018,203,29.9,All Ages
+189,92708,Fountain Valley,Orange,54257.80952,2018,108,21.4,All Ages
+190,92780,Tustin,Orange,,2018,182,31.1,All Ages
+191,92782,Tustin,Orange,,2018,45,16.2,All Ages
+192,92801,Anaheim,Orange,43649.56395,2018,254,37.8,All Ages
+193,92802,Anaheim,Orange,43649.56395,2018,200,43.0,All Ages
+194,92804,Anaheim,Orange,43649.56395,2018,373,41.0,All Ages
+195,92805,Anaheim,Orange,43649.56395,2018,363,45.4,All Ages
+196,92806,Anaheim,Orange,43649.56395,2018,143,35.1,All Ages
+197,92807,Anaheim,Orange,43649.56395,2018,79,24.2,All Ages
+198,92808,Anaheim,Orange,43649.56395,2018,20,11.1,All Ages
+199,92821,Brea,Orange,82512.73457999999,2018,59,14.7,All Ages
+200,92831,Fullerton,Orange,57276.18135,2018,146,41.8,All Ages
+201,92832,Fullerton,Orange,57276.18135,2018,99,36.7,All Ages
+202,92833,Fullerton,Orange,57276.18135,2018,140,26.0,All Ages
+203,92835,Fullerton,Orange,57276.18135,2018,53,25.3,All Ages
+204,92840,Garden Grove,Orange,46279.44544,2018,180,32.2,All Ages
+205,92841,Garden Grove,Orange,46279.44544,2018,76,23.7,All Ages
+206,92843,Garden Grove,Orange,46279.44544,2018,193,39.5,All Ages
+207,92844,Garden Grove,Orange,46279.44544,2018,62,26.2,All Ages
+208,92845,Garden Grove,Orange,46279.44544,2018,26,17.1,All Ages
+209,92860,Norco,Riverside,60326.80464,2018,54,21.3,All Ages
+210,92865,Orange,Orange,80757.62922999999,2018,67,33.7,All Ages
+211,92866,Orange,Orange,80757.62922999999,2018,43,28.8,All Ages
+212,92867,Orange,Orange,80757.62922999999,2018,92,20.7,All Ages
+213,92868,Orange,Orange,80757.62922999999,2018,87,37.0,All Ages
+214,92869,Orange,Orange,80757.62922999999,2018,84,22.2,All Ages
+215,92870,Placentia,Orange,57276.18135,2018,140,26.3,All Ages
+216,92879,Corona,Riverside,60326.80464,2018,166,34.2,All Ages
+217,92880,Corona,Riverside,60326.80464,2018,172,20.6,All Ages
+218,92881,Corona,Riverside,60326.80464,2018,47,15.1,All Ages
+219,92882,Corona,Riverside,60326.80464,2018,228,31.8,All Ages
+220,92883,Corona,Riverside,60326.80464,2018,70,21.1,All Ages
+221,92886,Yorba Linda,Orange,82512.73457999999,2018,85,18.5,All Ages
+222,92887,Yorba Linda,Orange,82512.73457999999,2018,29,17.9,All Ages
+223,93001,Ventura,Ventura,43424.07678,2018,120,37.2,All Ages
+224,93003,Ventura,Ventura,43424.07678,2018,152,32.8,All Ages
+225,93004,Ventura,Ventura,43424.07678,2018,70,24.9,All Ages
+226,93010,Camarillo,Ventura,78198.21086,2018,88,21.7,All Ages
+227,93012,Camarillo,Ventura,78198.21086,2018,63,17.1,All Ages
+228,93015,Fillmore,Ventura,44334.57198,2018,48,25.0,All Ages
+229,93021,Moorpark,Ventura,78198.21086,2018,84,23.2,All Ages
+230,93022,Oak View,Ventura,,2018,26,65.9,All Ages
+231,93023,Ojai,Ventura,44334.57198,2018,41,20.7,All Ages
+232,93030,Oxnard,Ventura,41539.15282,2018,296,47.6,All Ages
+233,93033,Oxnard,Ventura,41539.15282,2018,259,28.7,All Ages
+234,93035,Oxnard,Ventura,41539.15282,2018,71,25.9,All Ages
+235,93036,Oxnard,Ventura,41539.15282,2018,168,33.4,All Ages
+236,93041,Port Hueneme,Ventura,41539.15282,2018,77,34.2,All Ages
+237,93060,Santa Paula,Ventura,44334.57198,2018,118,33.6,All Ages
+238,93063,Simi Valley,Ventura,73231.89409,2018,207,37.9,All Ages
+239,93065,Simi Valley,Ventura,73231.89409,2018,235,33.1,All Ages
