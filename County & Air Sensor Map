@@ -1,0 +1,60 @@
+import matplotlib.pyplot as plt
+import cartopy.crs as ccrs
+import cartopy.feature as cfeature
+import cartopy.io.shapereader as shpreader
+import csv
+import pandas as pd
+
+ozone = pd.read_csv('CA_ozone.csv') #creating pandas dataframes to get sensor coordinates
+pm2 = pd.read_csv('CA_pm2.csv') 
+
+# making county dataframes 'Orange', 'San Diego', 'Riverside', 'San Bernardino', 'Ventura', 'Los Angeles' for each csv
+
+orange = ozone.loc[ozone["COUNTY"]=="Orange"]
+san_diego = ozone.loc[ozone["COUNTY"]=="San Diego"]
+riverside = ozone.loc[ozone["COUNTY"]=="Riverside"]
+san_bernardino = ozone.loc[ozone["COUNTY"]=="San Bernardino"]
+ventura = ozone.loc[ozone["COUNTY"]=="Ventura"]
+los_angeles = ozone.loc[ozone["COUNTY"]=="Los Angeles"]
+
+orange2 = pm2.loc[pm2["COUNTY"]=="Orange"]
+san_diego2 = pm2.loc[pm2["COUNTY"]=="San Diego"]
+riverside2 = pm2.loc[pm2["COUNTY"]=="Riverside"]
+san_bernardino2 = pm2.loc[pm2["COUNTY"]=="San Bernardino"]
+ventura2 = pm2.loc[pm2["COUNTY"]=="Ventura"]
+los_angeles2 = pm2.loc[pm2["COUNTY"]=="Los Angeles"]
+
+# concatinating the county dataframes to make ozone and pm2 dataframes with our counties
+
+ozone_county = pd.concat([orange, san_diego, riverside, san_bernardino, ventura, los_angeles])
+pm2_county = pd.concat([orange2, san_diego2, riverside2, san_bernardino2, ventura2, los_angeles2])
+
+plt.figure(figsize=(10,7)) # fig size
+
+ca_map = plt.axes(projection=ccrs.PlateCarree()) # creating the map; projection determines what the map looks like
+
+ca_map.set_extent([-121, -114, 36, 32]) # to zoom into desired area of california
+
+ca_map.add_feature(cfeature.LAND) # adding features to the map
+ca_map.add_feature(cfeature.OCEAN)
+ca_map.add_feature(cfeature.COASTLINE)
+ca_map.add_feature(cfeature.BORDERS, linestyle=':')
+ca_map.add_feature(cfeature.LAKES, alpha=0.5)
+ca_map.add_feature(cfeature.RIVERS)
+ca_map.add_feature(cfeature.STATES.with_scale('10m'))
+
+reader = shpreader.Reader('countyl010g_shp_nt00964/countyl010g.shp') #getting the county geometries out of shape file
+counties = list(reader.geometries())
+COUNTIES = cfeature.ShapelyFeature(counties, ccrs.PlateCarree())
+ca_map.add_feature(COUNTIES, facecolor='none', edgecolor='gray')
+
+ca_map.xaxis.set_visible(True) # showing longitude and latitude
+ca_map.yaxis.set_visible(True)
+
+
+plt.scatter(ozone_county['SITE_LONGITUDE'], ozone_county['SITE_LATITUDE'], label="Ozone Sensor", transform=ccrs.PlateCarree()) #plotting sensor locations on the map
+plt.scatter(pm2_county['SITE_LONGITUDE'], pm2_county['SITE_LATITUDE'], label="pm2.5 Sensor", transform=ccrs.PlateCarree())            
+
+plt.ylabel("Latitude", fontsize=14)
+plt.xlabel("Longitude", fontsize=14)
+plt.legend()
