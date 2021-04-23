@@ -1,3 +1,5 @@
+## This codes uses the master_data.csv ##
+
 import csv
 import pandas as pd
 import matplotlib.pyplot as plt
