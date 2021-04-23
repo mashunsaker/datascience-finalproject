@@ -1,0 +1,178 @@
+import csv
+import pandas as pd
+
+from sklearn.preprocessing import scale
+from sklearn.decomposition import PCA 
+from sklearn.cluster import KMeans, AgglomerativeClustering
+
+import matplotlib.pyplot as plt
+%matplotlib inline
+plt.rcParams['figure.figsize'] = (10, 10)
+plt.style.use('ggplot')
+
+from matplotlib.colors import ListedColormap
+cmap = ListedColormap(["#e41a1c","#984ea3","#a65628","#377eb8","#ffff33","#4daf4a","#ff7f00"])
+
+ia = pd.read_csv('master_data.csv')  #making dataframes by year and 3 features
+ia2015 = ia.loc[ia["Year"]==2015]
+ia2016 = ia.loc[ia["Year"]==2016]
+ia2017 = ia.loc[ia["Year"]==2017]
+ia2018 = ia.loc[ia["Year"]==2018]
+features = ['DAILY_AQI_VALUE', 'Income', 'ED_Visits']
+
+#PCA 2015
+
+X = scale(ia2015.loc[:, features].values) # scale the dataset
+
+pca_model = PCA()   # find PCA and transform to new coordinates
+X_PCA = pca_model.fit_transform(X)
+
+df_plot = pd.DataFrame(X_PCA, columns=['PC1', 'PC2', 'PC3'])  # create a new pandas dataframe 
+df_plot.head()
+var_ratio = pca_model.explained_variance_ratio_    # explained variance ratio of the principal components
+print(var_ratio)
+
+plt.plot([1,2,3], var_ratio, '-o')
+
+plt.ylabel('Proportion of Variance Explained')
+plt.xlabel('Principal Component')
+plt.xlim(0.75,4.5)
+plt.ylim(0,0.8)
+plt.xticks([1,2,3])
+plt.show()
+
+fig,ax1 = plt.subplots()
+
+ax1.set_xlim(X_PCA[:,0].min()-1,X_PCA[:,0].max()+1)
+ax1.set_ylim(X_PCA[:,1].min()-1,X_PCA[:,1].max()+1)
+                                                 
+for i,zipc in enumerate(ia2015['Zip_Code'].values):       # Plot Principal Components 1 and 2
+    ax1.annotate(zipc, (X_PCA[i,0], X_PCA[i,1]), ha='center',fontsize=10)
+
+    
+ax1.set_xlabel('First Principal Component')
+ax1.set_ylabel('Second Principal Component')
+
+x_axis = df_plot['PC1']  # primary PCA component
+y_axis = df_plot['PC2']  # secondary PCA component
+
+agg_cluster_model = AgglomerativeClustering(linkage='complete', affinity='euclidean', n_clusters=4)
+y_pred = agg_cluster_model.fit_predict(X)
+
+plt.figure(figsize=(10,8))
+
+plt.title('Agg_Clusters by PCA components')
+plt.scatter(X[:, 0], X[:, 1], c=y_pred,  marker="x", cmap=cmap);
+
+#PCA 2016
+
+X = scale(ia2016.loc[:, features].values) # scale the dataset
+
+pca_model = PCA()   # find PCA and transform to new coordinates
+X_PCA = pca_model.fit_transform(X)
+
+df_plot = pd.DataFrame(X_PCA, columns=['PC1', 'PC2', 'PC3'])  # create a new pandas dataframe 
+df_plot.head()
+
+fig,ax1 = plt.subplots()
+
+ax1.set_xlim(X_PCA[:,0].min()-1,X_PCA[:,0].max()+1)
+ax1.set_ylim(X_PCA[:,1].min()-1,X_PCA[:,1].max()+1)
+                                                 
+for i,zipc in enumerate(ia2016['Zip_Code'].values):       # Plot Principal Components 1 and 2
+    ax1.annotate(zipc, (X_PCA[i,0], X_PCA[i,1]), ha='center',fontsize=10)
+
+    
+ax1.set_xlabel('First Principal Component')
+ax1.set_ylabel('Second Principal Component')
+
+x_axis = df_plot['PC1']  # primary PCA component
+y_axis = df_plot['PC2']  # secondary PCA component
+
+agg_cluster_model = AgglomerativeClustering(linkage='complete', affinity='euclidean', n_clusters=4)
+y_pred = agg_cluster_model.fit_predict(X)
+
+plt.figure(figsize=(10,8))
+
+plt.title('Agg_Clusters by PCA components')
+plt.scatter(X[:, 0], X[:, 1], c=y_pred,  marker="x", cmap=cmap);
+
+#PCA 2017
+
+X = scale(ia2017.loc[:, features].values) # scale the dataset
+
+pca_model = PCA()   # find PCA and transform to new coordinates
+X_PCA = pca_model.fit_transform(X)
+
+df_plot = pd.DataFrame(X_PCA, columns=['PC1', 'PC2', 'PC3'])  # create a new pandas dataframe 
+df_plot.head()
+
+var_ratio = pca_model.explained_variance_ratio_    # explained variance ratio of the principal components
+print(var_ratio)
+
+plt.plot([1,2,3], var_ratio, '-o')
+
+plt.ylabel('Proportion of Variance Explained')
+plt.xlabel('Principal Component')
+plt.xlim(0.75,4.5)
+plt.ylim(0,0.8)
+plt.xticks([1,2,3])
+plt.show()
+
+fig,ax1 = plt.subplots()
+
+ax1.set_xlim(X_PCA[:,0].min()-1,X_PCA[:,0].max()+1)
+ax1.set_ylim(X_PCA[:,1].min()-1,X_PCA[:,1].max()+1)
+                                                 
+for i,zipc in enumerate(ia2017['Zip_Code'].values):       # Plot Principal Components 1 and 2
+    ax1.annotate(zipc, (X_PCA[i,0], X_PCA[i,1]), ha='center',fontsize=10)
+
+    
+ax1.set_xlabel('First Principal Component')
+ax1.set_ylabel('Second Principal Component')
+
+#PCA 2018
+
+X = scale(ia2018.loc[:, features].values) # scale the dataset
+
+pca_model = PCA()   # find PCA and transform to new coordinates
+X_PCA = pca_model.fit_transform(X)
+
+df_plot = pd.DataFrame(X_PCA, columns=['PC1', 'PC2', 'PC3'])  # create a new pandas dataframe 
+df_plot.head()
+
+var_ratio = pca_model.explained_variance_ratio_    # explained variance ratio of the principal components
+print(var_ratio)
+
+plt.plot([1,2,3], var_ratio, '-o')
+
+plt.ylabel('Proportion of Variance Explained')
+plt.xlabel('Principal Component')
+plt.xlim(0.75,4.5)
+plt.ylim(0,0.8)
+plt.xticks([1,2,3])
+plt.show()
+
+fig,ax1 = plt.subplots()
+
+ax1.set_xlim(X_PCA[:,0].min()-1,X_PCA[:,0].max()+1)
+ax1.set_ylim(X_PCA[:,1].min()-1,X_PCA[:,1].max()+1)
+                                                 
+for i,zipc in enumerate(ia2018['Zip_Code'].values):       # Plot Principal Components 1 and 2
+    ax1.annotate(zipc, (X_PCA[i,0], X_PCA[i,1]), ha='center',fontsize=10)
+
+    
+ax1.set_xlabel('First Principal Component')
+ax1.set_ylabel('Second Principal Component')
+
+x_axis = df_plot['PC1']  # primary PCA component
+y_axis = df_plot['PC2']  # secondary PCA component
+
+agg_cluster_model = AgglomerativeClustering(linkage='complete', affinity='euclidean', n_clusters=4)
+y_pred = agg_cluster_model.fit_predict(X)
+
+plt.figure(figsize=(10,8))
+
+plt.title('Agg_Clusters by PCA components')
+plt.scatter(X[:, 0], X[:, 1], c=y_pred,  marker="x", cmap=cmap);
+
